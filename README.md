@@ -9,21 +9,23 @@ Then run the program as follows:
 Please note, that "srt" extension is misleading here. The format of the subtitles is described in the script itself (one line per timestamp).
 
 Here is the help message:  
-`python adjust-subtitles.py --help`  
-`usage: adjust-subtitles.py [-h] -b1 BEGIN_OLD -e1 END_OLD -b2 BEGIN_NEW -e2 END_NEW -i INPUT_FILE`  
-  
-`Adjusts the timestamps of the subtitles using the provided input parameters`  
-`(in milliseconds, i.e. 1 hr = 3600000 ms)`  
-  
-`optional arguments:`  
-`  -h, --help            show this help message and exit`  
-`  -b1 BEGIN_OLD, --begin-old BEGIN_OLD`  
-`                        Begin of the old subtitles`  
-`  -e1 END_OLD, --end-old END_OLD`  
-`                        End of the old subtitles`  
-`  -b2 BEGIN_NEW, --begin-new BEGIN_NEW`  
-`                        Begin of the new subtitles`  
-`  -e2 END_NEW, --end-new END_NEW`  
-`                        End of the new subtitles`  
-`  -i INPUT_FILE, --input-file INPUT_FILE`  
-`                        Input file`
+```
+python adjust-subtitles.py --help
+usage: adjust-subtitles.py [-h] -b1 BEGIN_OLD -e1 END_OLD -b2 BEGIN_NEW -e2 END_NEW -i INPUT_FILE
+
+Adjusts the timestamps of the subtitles using the provided input parameters
+(in milliseconds, i.e. 1 hr = 3600000 ms)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -b1 BEGIN_OLD, --begin-old BEGIN_OLD
+                        Begin of the old subtitles
+  -e1 END_OLD, --end-old END_OLD
+                        End of the old subtitles
+  -b2 BEGIN_NEW, --begin-new BEGIN_NEW
+                        Begin of the new subtitles
+  -e2 END_NEW, --end-new END_NEW
+                        End of the new subtitles
+  -i INPUT_FILE, --input-file INPUT_FILE
+                        Input file
+```
