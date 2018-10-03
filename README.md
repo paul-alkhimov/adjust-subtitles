@@ -10,8 +10,7 @@ Please note, that "srt" extension is misleading here. The format of the subtitle
 
 Here is the help message:  
 `python adjust-subtitles.py --help`  
-`usage: adjust-subtitles.py [-h] -b1 BEGIN_OLD -e1 END_OLD -b2`  
-`                                       BEGIN_NEW -e2 END_NEW -i INPUT_FILE`  
+`usage: adjust-subtitles.py [-h] -b1 BEGIN_OLD -e1 END_OLD -b2 BEGIN_NEW -e2 END_NEW -i INPUT_FILE`  
   
 `Adjusts the timestamps of the subtitles using the provided input parameters`  
 `(in milliseconds, i.e. 1 hr = 3600000 ms)`  
